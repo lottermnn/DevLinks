@@ -9,7 +9,7 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a imagem light
     img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("alt", "Foto de Eduardo Lottermann usando mascara")
+    img.setAttribute("alt", "Mascara")
   } else {
     //se tiver sem light mode, mandar a imagem nomarl
     img.setAttribute("src", "./assets/avatar.png")
